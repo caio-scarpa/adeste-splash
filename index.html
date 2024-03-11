@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adeste - Convidados</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="card">
+      
+      <div class="card-body">
+
+        <div class="card-image-zone">
+          <img src="logo.png" alt="Organization Logo" />
+        </div>
+
+        <div class="card-header-zone">
+          <h1>ADESTE</h1>
+          <h3>Rede Wi-Fi Convidados</h3>
+        </div>
+
+        <div class="card-input-zone">
+          <input
+            type="email"
+            id="email"
+            placeholder="Seu Endereço de E-mail"
+            required
+          />
+          <div style="margin: 10px"></div>
+          <label for="checkbox">Concordo com Termos & Condições: </label>
+          <input type="checkbox" id="consent" name="checkbox" required />
+        </div>
+
+        <div class="card-message-zone" style="display: none"></div>
+        
+        <div class="card-button-zone">
+          <button id="continue-btn">Acessar</button>
+        </div>
+
+      </div>
+
+      <div id="bottom-bar">
+        <a href="#">Termos & Condições</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+
+    </div>
+    <script src="meraki.js"></script>
+  </body>
+</html>
